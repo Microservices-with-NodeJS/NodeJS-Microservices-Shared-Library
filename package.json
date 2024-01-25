@@ -1,0 +1,33 @@
+{
+  "name": "nodejs_ms_shared_library",
+  "version": "1.0.9",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "module",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "shared-library",
+    "jwt",
+    "rabbitmq",
+    "typescript",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/amqplib": "^0.10.4",
+    "@types/node": "^20.11.6",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
